@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from . models import Service
 from . forms import CustomerForm
 from django.contrib import messages
@@ -13,7 +13,7 @@ def index(request):
         if form.is_valid:
             messages.success(request, 'Your message has been sent. Thank you!')
             form.save()
-            return HttpResponseRedirect('')
+            form = CustomerForm()
 
     context = {
         "services": services,

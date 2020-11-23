@@ -83,10 +83,11 @@ WSGI_APPLICATION = 'bullettime.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bullet',
-        'USER': 'root',
+        'NAME': 'heroku_c6ebaadcc066286',
+        'USER': 'bada37a60b4e5b',
         'PASSWORD': env('PASSWORD'),
-        'HOST': 'localhost'
+        'HOST': 'eu-cdbr-west-03.cleardb.net',
+        'PORT': '3306'
     }
 }
 

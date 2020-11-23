@@ -1,0 +1,1 @@
+web: gunicorn bullettime.wsgi --log-file -

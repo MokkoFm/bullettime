@@ -28,7 +28,7 @@ SECRET_KEY = env("SECRET_KEY", "mokko2070")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = ['bullet-time.herokuapp.com/', '127.0.0.1:8000/']
+ALLOWED_HOSTS = ['bullet-time.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition

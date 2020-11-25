@@ -41,9 +41,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bullet.apps.BulletConfig',
     'crispy_forms',
+    "compressor",
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+STATICFILES_FINDERS = (
+        # other finders..
+        'compressor.finders.CompressorFinder',
+)
+COMPRESS_ENABLED = True
+COMPRESS_CSS_FILTERS = ["compressor.filters.cssmin.CSSMinFilter"]
+COMPRESS_JS_FILTERS = ["compressor.filters.jsmin.JSMinFilter"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

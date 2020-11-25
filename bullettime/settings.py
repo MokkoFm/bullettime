@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bullet.apps.BulletConfig',
     'crispy_forms',
-    "compressor",
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'

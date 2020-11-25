@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -546,7 +546,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #5c8eb0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .section-title h2::after {
@@ -564,7 +564,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #263d4d;
 }
 
@@ -600,7 +600,7 @@ section {
 .about .count-box p {
   padding: 5px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: #2e4b5e;
@@ -612,7 +612,7 @@ section {
   margin-top: 20px;
   color: #2e4b5e;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -1584,7 +1584,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 

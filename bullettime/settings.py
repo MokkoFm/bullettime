@@ -46,14 +46,6 @@ INSTALLED_APPS = [
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-STATICFILES_FINDERS = (
-        # other finders..
-        'compressor.finders.CompressorFinder',
-)
-COMPRESS_ENABLED = True
-COMPRESS_CSS_FILTERS = ["compressor.filters.cssmin.CSSMinFilter"]
-COMPRESS_JS_FILTERS = ["compressor.filters.jsmin.JSMinFilter"]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

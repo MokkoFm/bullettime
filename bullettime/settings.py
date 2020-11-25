@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'compression_middleware.middleware.CompressionMiddleware',
 ]
 
 ROOT_URLCONF = 'bullettime.urls'

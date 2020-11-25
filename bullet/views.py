@@ -2,8 +2,10 @@ from django.shortcuts import render
 from . models import Service, Partner, Gallery
 from . forms import CustomerForm
 from django.contrib import messages
+from django.views.decorators.cache import cache_page
 
 
+@cache_page(60 * 15)
 def index(request):
     services = Service.objects.all()
     partners = Partner.objects.all()
